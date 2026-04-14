@@ -1,0 +1,1001 @@
+timestamp,source_ip,dest_ip,protocol,action,threat_label,log_type,bytes_transferred,user_agent,request_path
+2024-05-01T14:05:28,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,548,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:17,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,661,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:07:57,192.168.1.7,192.168.1.6,HTTP,allowed,benign,ids,30146,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:09:32,192.168.1.201,192.168.1.120,ICMP,allowed,suspicious,application,4412,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/dashboard
+2024-05-01T14:05:51,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,730,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:49,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1412,Nmap Scripting Engine,/login
+2024-05-01T14:05:24,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,356,python-requests/2.28.0,/admin/login.php
+2024-05-01T18:49:52,192.168.1.16,192.168.1.10,TCP,allowed,benign,ids,17223,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:29,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,210,Nmap Scripting Engine,/login
+2024-05-01T19:48:54,192.168.1.26,192.168.1.44,TCP,allowed,benign,application,21380,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:19,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1036,Nmap Scripting Engine,/login
+2024-05-01T15:59:12,192.168.1.16,192.168.1.32,ICMP,allowed,benign,firewall,16799,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:02,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,450,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:30,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1225,Nmap Scripting Engine,/login
+2024-05-01T14:00:07,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,634,Nmap Scripting Engine,/login
+2024-05-01T14:00:24,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1320,Nmap Scripting Engine,/login
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,405,Nmap Scripting Engine,/login
+2024-05-01T19:05:43,192.168.1.45,192.168.1.47,HTTP,allowed,benign,application,23666,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T22:40:17,192.168.1.27,192.168.1.32,HTTP,allowed,benign,firewall,19338,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:03:41,192.168.1.125,192.168.1.110,HTTP,allowed,suspicious,ids,1285,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/ssh
+2024-05-01T19:19:58,192.168.1.19,192.168.1.3,ICMP,allowed,benign,application,6179,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:06,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,289,Nmap Scripting Engine,/login
+2024-05-02T01:44:44,192.168.1.9,192.168.1.11,TCP,allowed,benign,ids,32929,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T01:27:02,192.168.1.9,192.168.1.16,ICMP,allowed,benign,application,6521,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:06,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,212,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:04:52,192.168.1.248,192.168.1.129,UDP,allowed,suspicious,firewall,1211,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/admin/login.php
+2024-05-01T14:00:46,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,742,Nmap Scripting Engine,/login
+2024-05-01T14:10:25,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,857,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:19,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1458,Nmap Scripting Engine,/login
+2024-05-01T14:00:44,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,965,Nmap Scripting Engine,/login
+2024-05-01T14:05:07,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,397,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:43:56,192.168.1.44,192.168.1.39,TCP,allowed,benign,firewall,5769,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:43,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1198,Nmap Scripting Engine,/login
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1321,Nmap Scripting Engine,/login
+2024-05-01T14:05:45,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,419,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:56,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,482,python-requests/2.28.0,/admin/login.php
+2024-05-02T09:24:38,192.168.1.22,192.168.1.35,ICMP,allowed,benign,application,18325,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T07:38:38,192.168.1.9,192.168.1.13,ICMP,allowed,benign,application,34124,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:28,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1159,Nmap Scripting Engine,/login
+2024-05-02T00:52:49,192.168.1.17,192.168.1.12,HTTP,allowed,benign,ids,30635,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:53,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1478,nikto/2.1.6,/wp-admin/
+2024-05-01T14:02:14,192.168.1.248,192.168.1.112,HTTP,allowed,suspicious,firewall,1456,nikto/2.1.6,/
+2024-05-01T14:00:57,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,220,Nmap Scripting Engine,/login
+2024-05-02T09:20:04,192.168.1.15,192.168.1.41,HTTP,allowed,benign,firewall,7566,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:12,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1198,Nmap Scripting Engine,/login
+2024-05-01T14:00:01,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,467,Nmap Scripting Engine,/login
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,733,Nmap Scripting Engine,/login
+2024-05-01T14:06:31,192.168.1.248,192.168.1.121,HTTP,blocked,suspicious,application,1272,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/admin/login.php
+2024-05-01T18:49:53,192.168.1.38,192.168.1.15,TCP,allowed,benign,application,30167,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:48,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1412,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:32,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1405,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:54,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,323,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:25,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1475,Nmap Scripting Engine,/login
+2024-05-02T00:30:36,192.168.1.11,192.168.1.30,TCP,allowed,benign,application,33460,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:53,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,288,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:01:53,192.168.1.201,192.168.1.119,SSH,allowed,suspicious,application,4321,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/admin
+2024-05-01T14:00:04,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,792,Nmap Scripting Engine,/login
+2024-05-01T14:10:59,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,959,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:18,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1342,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:14,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1680,nikto/2.1.6,/wp-admin/
+2024-05-01T15:56:59,192.168.1.7,192.168.1.22,HTTP,allowed,benign,firewall,27822,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-02T01:25:16,192.168.1.27,192.168.1.10,ICMP,allowed,benign,application,14362,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:50,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,321,Nmap Scripting Engine,/login
+2024-05-02T07:20:11,192.168.1.7,192.168.1.29,TCP,allowed,benign,application,30651,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:10:29,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1146,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:08,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1451,Nmap Scripting Engine,/login
+2024-05-01T14:01:48,192.168.1.125,192.168.1.113,SSH,blocked,suspicious,application,744,sqlmap/1.7.8,/wp-admin/
+2024-05-02T07:16:45,192.168.1.17,192.168.1.42,TCP,allowed,benign,application,15912,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:02,192.168.1.248,192.168.1.109,TCP,blocked,suspicious,ids,166,Nmap Scripting Engine,/ftp
+2024-05-01T17:43:19,192.168.1.9,192.168.1.6,HTTP,allowed,benign,ids,30415,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:43,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,334,Nmap Scripting Engine,/login
+2024-05-01T14:05:20,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,416,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:39,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,742,Nmap Scripting Engine,/login
+2024-05-01T14:00:01,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1304,Nmap Scripting Engine,/login
+2024-05-01T14:00:57,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,181,Nmap Scripting Engine,/login
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1347,Nmap Scripting Engine,/login
+2024-05-01T14:05:37,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,226,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:12,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,630,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:49,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,695,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:28,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1206,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:48,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,511,Nmap Scripting Engine,/login
+2024-05-01T15:59:04,192.168.1.24,192.168.1.1,ICMP,allowed,benign,firewall,20303,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:57,192.168.1.125,192.168.1.113,TCP,blocked,suspicious,application,3163,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/dashboard
+2024-05-01T19:04:09,192.168.1.14,192.168.1.14,HTTP,allowed,benign,application,23991,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:12,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1430,Nmap Scripting Engine,/login
+2024-05-01T14:05:37,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,777,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:49,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,671,Nmap Scripting Engine,/login
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1295,Nmap Scripting Engine,/login
+2024-05-01T14:10:05,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,760,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:24,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,798,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,941,Nmap Scripting Engine,/login
+2024-05-01T14:10:19,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1518,nikto/2.1.6,/wp-admin/
+2024-05-01T14:09:35,192.168.1.248,192.168.1.110,FTP,allowed,suspicious,ids,2996,sqlmap/1.7.8,/
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,495,Nmap Scripting Engine,/login
+2024-05-01T22:54:56,192.168.1.44,192.168.1.26,ICMP,allowed,benign,ids,5782,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:17,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1882,nikto/2.1.6,/wp-admin/
+2024-05-01T16:52:43,192.168.1.29,192.168.1.24,HTTP,allowed,benign,application,13483,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-02T05:31:25,192.168.1.30,192.168.1.15,ICMP,allowed,benign,application,13088,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:09,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,225,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:31,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1196,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:19,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,599,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:09:03,192.168.1.201,192.168.1.114,SSH,blocked,suspicious,firewall,1037,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/dashboard
+2024-05-01T14:00:34,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,173,Nmap Scripting Engine,/login
+2024-05-01T14:47:37,192.168.1.5,192.168.1.13,TCP,allowed,benign,ids,9440,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:28,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,465,python-requests/2.28.0,/admin/login.php
+2024-05-02T10:31:59,192.168.1.16,192.168.1.37,ICMP,allowed,benign,application,22740,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:04,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,888,Nmap Scripting Engine,/login
+2024-05-01T14:05:47,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,695,python-requests/2.28.0,/admin/login.php
+2024-05-02T13:05:38,192.168.1.49,192.168.1.42,TCP,allowed,benign,application,5332,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,216,Nmap Scripting Engine,/login
+2024-05-01T21:08:35,192.168.1.22,192.168.1.15,ICMP,allowed,benign,application,17104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:06,192.168.1.125,192.168.1.101,ICMP,allowed,suspicious,ids,3036,curl/7.68.0,/dashboard
+2024-05-01T14:05:16,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,436,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:25,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,403,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:25,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,772,Nmap Scripting Engine,/login
+2024-05-01T14:57:22,192.168.1.6,192.168.1.23,TCP,allowed,benign,firewall,22261,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T04:38:47,192.168.1.6,192.168.1.41,TCP,allowed,benign,application,11006,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:22,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,529,Nmap Scripting Engine,/login
+2024-05-01T14:05:50,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,373,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:28,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1403,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:29,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,540,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:05,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,440,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:23,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,684,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:48,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,426,Nmap Scripting Engine,/login
+2024-05-01T14:00:08,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,814,Nmap Scripting Engine,/login
+2024-05-01T14:10:18,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1656,nikto/2.1.6,/wp-admin/
+2024-05-02T02:30:32,192.168.1.8,192.168.1.28,TCP,allowed,benign,firewall,32306,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:48,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1190,Nmap Scripting Engine,/login
+2024-05-01T14:00:01,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1249,Nmap Scripting Engine,/login
+2024-05-02T11:24:20,192.168.1.45,192.168.1.23,TCP,allowed,benign,application,29060,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:56,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,579,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:44,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1499,Nmap Scripting Engine,/login
+2024-05-01T14:10:17,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1424,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:47,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,960,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:45,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,356,python-requests/2.28.0,/admin/login.php
+2024-05-02T04:55:44,192.168.1.2,192.168.1.15,TCP,allowed,benign,ids,1628,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T01:14:01,192.168.1.32,192.168.1.2,HTTP,allowed,benign,ids,34124,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:46,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,715,Nmap Scripting Engine,/login
+2024-05-01T15:29:59,192.168.1.2,192.168.1.6,HTTP,allowed,benign,application,18344,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:30,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,896,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:19,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1408,Nmap Scripting Engine,/login
+2024-05-01T14:00:06,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,203,Nmap Scripting Engine,/login
+2024-05-01T14:10:11,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1498,nikto/2.1.6,/wp-admin/
+2024-05-02T08:33:29,192.168.1.35,192.168.1.32,TCP,allowed,benign,application,20647,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:29,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,646,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:49,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,241,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:21,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,156,Nmap Scripting Engine,/login
+2024-05-01T14:05:44,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,687,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:17,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,426,Nmap Scripting Engine,/login
+2024-05-02T01:44:51,192.168.1.46,192.168.1.15,ICMP,allowed,benign,application,19615,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:55,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1229,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:15,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,329,python-requests/2.28.0,/admin/login.php
+2024-05-01T15:07:24,192.168.1.49,192.168.1.15,ICMP,allowed,benign,firewall,19012,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-02T03:51:43,192.168.1.11,192.168.1.9,ICMP,allowed,benign,ids,18590,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T00:37:33,192.168.1.27,192.168.1.25,HTTP,allowed,benign,application,16908,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:30,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,274,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:03:23,192.168.1.201,192.168.1.127,UDP,allowed,suspicious,firewall,3224,curl/7.68.0,/ftp
+2024-05-01T14:10:38,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,812,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:29,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,534,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:45,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,743,Nmap Scripting Engine,/login
+2024-05-01T14:00:28,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1227,Nmap Scripting Engine,/login
+2024-05-02T09:44:17,192.168.1.20,192.168.1.12,ICMP,allowed,benign,firewall,6915,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:35,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,119,Nmap Scripting Engine,/login
+2024-05-01T14:09:06,192.168.1.201,192.168.1.110,FTP,blocked,suspicious,application,394,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/api/auth
+2024-05-01T14:03:11,192.168.1.201,192.168.1.122,UDP,blocked,suspicious,application,2284,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/dashboard
+2024-05-01T14:00:00,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1038,Nmap Scripting Engine,/login
+2024-05-01T14:10:12,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1527,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:17,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,513,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:17,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,113,Nmap Scripting Engine,/login
+2024-05-01T14:00:37,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1076,Nmap Scripting Engine,/login
+2024-05-01T14:00:29,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,392,Nmap Scripting Engine,/login
+2024-05-02T08:20:46,192.168.1.19,192.168.1.15,TCP,allowed,benign,application,21899,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,858,Nmap Scripting Engine,/login
+2024-05-01T14:10:42,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1922,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1465,Nmap Scripting Engine,/login
+2024-05-01T14:05:03,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,558,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:09:53,192.168.1.201,192.168.1.121,SSH,blocked,suspicious,application,2689,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/admin/login.php
+2024-05-01T14:00:26,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,551,Nmap Scripting Engine,/login
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,306,Nmap Scripting Engine,/login
+2024-05-01T22:09:51,192.168.1.8,192.168.1.13,HTTP,allowed,benign,firewall,33376,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:01,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,603,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:06:14,192.168.1.248,192.168.1.116,ICMP,allowed,suspicious,ids,4047,python-requests/2.28.0,/index.php
+2024-05-01T14:10:40,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1507,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:08,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,309,Nmap Scripting Engine,/login
+2024-05-02T01:50:04,192.168.1.43,192.168.1.31,TCP,allowed,benign,ids,21562,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,196,Nmap Scripting Engine,/login
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1204,Nmap Scripting Engine,/login
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,240,Nmap Scripting Engine,/login
+2024-05-01T14:10:09,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1961,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:20,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,451,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:44,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1238,Nmap Scripting Engine,/login
+2024-05-01T14:10:32,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1828,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:19,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1502,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:30,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1006,nikto/2.1.6,/wp-admin/
+2024-05-01T23:01:27,192.168.1.43,192.168.1.16,ICMP,allowed,benign,application,4664,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T22:58:31,192.168.1.18,192.168.1.36,ICMP,allowed,benign,firewall,20504,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-02T03:25:54,192.168.1.13,192.168.1.19,TCP,allowed,benign,ids,16897,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T18:17:28,192.168.1.16,192.168.1.20,HTTP,allowed,benign,firewall,25464,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:49,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,635,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:49,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1246,Nmap Scripting Engine,/login
+2024-05-01T14:00:31,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1085,Nmap Scripting Engine,/login
+2024-05-01T21:41:50,192.168.1.45,192.168.1.37,ICMP,allowed,benign,ids,4051,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-02T13:33:23,192.168.1.40,192.168.1.3,TCP,allowed,benign,application,27189,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:00,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,245,Nmap Scripting Engine,/login
+2024-05-01T14:05:31,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,609,python-requests/2.28.0,/admin/login.php
+2024-05-02T13:20:15,192.168.1.11,192.168.1.38,TCP,allowed,benign,firewall,12219,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,243,Nmap Scripting Engine,/login
+2024-05-02T07:11:58,192.168.1.7,192.168.1.44,HTTP,allowed,benign,firewall,11350,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:35,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1135,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:27,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,579,python-requests/2.28.0,/admin/login.php
+2024-05-01T23:39:21,192.168.1.14,192.168.1.16,TCP,allowed,benign,firewall,23969,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,324,Nmap Scripting Engine,/login
+2024-05-01T14:00:09,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,657,Nmap Scripting Engine,/login
+2024-05-01T14:00:41,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1207,Nmap Scripting Engine,/login
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,944,Nmap Scripting Engine,/login
+2024-05-01T18:09:29,192.168.1.18,192.168.1.35,ICMP,allowed,benign,application,3726,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:17,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,242,Nmap Scripting Engine,/login
+2024-05-01T14:01:27,192.168.1.125,192.168.1.113,TCP,blocked,suspicious,firewall,4657,Nmap Scripting Engine,/ftp
+2024-05-01T14:00:12,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,293,Nmap Scripting Engine,/login
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1285,Nmap Scripting Engine,/login
+2024-05-01T14:00:54,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,480,Nmap Scripting Engine,/login
+2024-05-01T14:05:17,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,650,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,319,Nmap Scripting Engine,/login
+2024-05-01T14:05:17,192.168.1.248,192.168.1.122,FTP,blocked,suspicious,firewall,4974,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/wp-admin/
+2024-05-01T14:10:27,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,925,nikto/2.1.6,/wp-admin/
+2024-05-02T06:39:32,192.168.1.8,192.168.1.17,TCP,allowed,benign,ids,35584,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:09:55,192.168.1.248,192.168.1.124,ICMP,allowed,suspicious,firewall,2986,curl/7.68.0,/admin
+2024-05-01T20:33:10,192.168.1.9,192.168.1.42,TCP,allowed,benign,application,28548,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:00,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1164,Nmap Scripting Engine,/login
+2024-05-02T08:18:31,192.168.1.4,192.168.1.8,TCP,allowed,benign,firewall,20931,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1187,Nmap Scripting Engine,/login
+2024-05-01T14:10:52,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,305,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:13,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,640,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:56:37,192.168.1.10,192.168.1.12,HTTP,allowed,benign,application,28483,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:02,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1454,Nmap Scripting Engine,/login
+2024-05-01T14:05:43,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,517,python-requests/2.28.0,/admin/login.php
+2024-05-02T04:08:59,192.168.1.40,192.168.1.26,TCP,allowed,benign,firewall,23801,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:09,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1385,Nmap Scripting Engine,/login
+2024-05-01T14:05:31,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,532,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:31,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,139,Nmap Scripting Engine,/login
+2024-05-01T14:05:51,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,464,python-requests/2.28.0,/admin/login.php
+2024-05-02T10:01:42,192.168.1.2,192.168.1.47,ICMP,allowed,benign,application,14739,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T23:17:18,192.168.1.7,192.168.1.37,TCP,allowed,benign,application,8558,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:34,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,677,python-requests/2.28.0,/admin/login.php
+2024-05-02T11:54:21,192.168.1.15,192.168.1.2,TCP,allowed,benign,ids,1044,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:35,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,330,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:15,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,655,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:34,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1186,Nmap Scripting Engine,/login
+2024-05-01T14:05:47,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,686,python-requests/2.28.0,/admin/login.php
+2024-05-02T11:52:54,192.168.1.39,192.168.1.47,TCP,allowed,benign,ids,2757,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:10:38,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1520,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:54,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,629,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:32,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1508,nikto/2.1.6,/wp-admin/
+2024-05-01T14:03:40,192.168.1.201,192.168.1.113,UDP,blocked,suspicious,firewall,3131,python-requests/2.28.0,/index.php
+2024-05-02T08:35:49,192.168.1.24,192.168.1.4,ICMP,allowed,benign,application,11936,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:25,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,368,Nmap Scripting Engine,/login
+2024-05-01T14:05:31,192.168.1.125,192.168.1.105,ICMP,allowed,suspicious,firewall,3548,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T17:50:48,192.168.1.11,192.168.1.29,ICMP,allowed,benign,ids,27641,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:18,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,990,Nmap Scripting Engine,/login
+2024-05-01T15:51:45,192.168.1.37,192.168.1.36,HTTP,allowed,benign,ids,19913,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:48,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,231,python-requests/2.28.0,/admin/login.php
+2024-05-02T06:49:20,192.168.1.7,192.168.1.9,HTTP,allowed,benign,firewall,5041,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-02T13:52:59,192.168.1.17,192.168.1.48,ICMP,allowed,benign,firewall,14242,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:38,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,641,Nmap Scripting Engine,/login
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,557,Nmap Scripting Engine,/login
+2024-05-01T14:05:26,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,538,python-requests/2.28.0,/admin/login.php
+2024-05-02T07:46:08,192.168.1.21,192.168.1.38,HTTP,allowed,benign,application,7104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-02T12:28:38,192.168.1.12,192.168.1.44,TCP,allowed,benign,ids,6554,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:26,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1222,nikto/2.1.6,/wp-admin/
+2024-05-02T10:55:53,192.168.1.5,192.168.1.9,ICMP,allowed,benign,application,5860,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-02T03:36:07,192.168.1.46,192.168.1.43,ICMP,allowed,benign,application,7621,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:12,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,621,Nmap Scripting Engine,/login
+2024-05-01T14:00:53,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1212,Nmap Scripting Engine,/login
+2024-05-01T14:10:18,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1786,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:51,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,425,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:23,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,430,Nmap Scripting Engine,/login
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1004,Nmap Scripting Engine,/login
+2024-05-01T14:10:58,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,844,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:20,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,248,Nmap Scripting Engine,/login
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1442,Nmap Scripting Engine,/login
+2024-05-01T14:00:12,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,413,Nmap Scripting Engine,/login
+2024-05-01T23:31:23,192.168.1.24,192.168.1.33,ICMP,allowed,benign,ids,7462,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:03,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,568,Nmap Scripting Engine,/login
+2024-05-02T00:14:59,192.168.1.20,192.168.1.16,HTTP,allowed,benign,firewall,26749,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:10:19,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1733,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:14,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,383,Nmap Scripting Engine,/login
+2024-05-01T14:01:56,192.168.1.201,192.168.1.113,TCP,blocked,suspicious,application,4958,nikto/2.1.6,/ssh
+2024-05-02T03:08:53,192.168.1.17,192.168.1.16,TCP,allowed,benign,application,33492,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:11,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,251,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:07:00,192.168.1.201,192.168.1.121,FTP,allowed,suspicious,ids,2434,nikto/2.1.6,/api/auth
+2024-05-02T00:44:14,192.168.1.2,192.168.1.21,ICMP,allowed,benign,firewall,5862,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:54,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,629,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:07,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1442,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:46,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,794,Nmap Scripting Engine,/login
+2024-05-01T14:10:45,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,859,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:28,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,418,python-requests/2.28.0,/admin/login.php
+2024-05-02T06:19:50,192.168.1.25,192.168.1.25,HTTP,allowed,benign,application,9715,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,642,Nmap Scripting Engine,/login
+2024-05-01T14:10:34,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,760,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:46,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,734,python-requests/2.28.0,/admin/login.php
+2024-05-02T06:29:03,192.168.1.18,192.168.1.15,HTTP,allowed,benign,firewall,9920,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T19:00:21,192.168.1.41,192.168.1.15,HTTP,allowed,benign,application,10897,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:09,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,980,Nmap Scripting Engine,/login
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,336,Nmap Scripting Engine,/login
+2024-05-01T18:52:35,192.168.1.17,192.168.1.47,ICMP,allowed,benign,ids,24982,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T15:04:24,192.168.1.25,192.168.1.44,ICMP,allowed,benign,firewall,24196,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:51,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,675,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,ICMP,allowed,suspicious,firewall,4595,sqlmap/1.7.8,/login
+2024-05-01T14:00:25,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,345,Nmap Scripting Engine,/login
+2024-05-01T14:01:32,192.168.1.201,192.168.1.110,FTP,blocked,suspicious,firewall,1744,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/ssh
+2024-05-01T14:05:23,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,670,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:53:39,192.168.1.31,192.168.1.7,ICMP,allowed,benign,ids,6626,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-02T13:50:00,192.168.1.44,192.168.1.22,ICMP,allowed,benign,ids,33151,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:51,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1471,Nmap Scripting Engine,/login
+2024-05-01T14:00:17,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1047,Nmap Scripting Engine,/login
+2024-05-01T14:00:53,192.168.1.248,192.168.1.115,ICMP,allowed,suspicious,application,4326,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/wp-admin/
+2024-05-01T14:10:04,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1707,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:40,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,328,Nmap Scripting Engine,/login
+2024-05-01T14:10:26,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1288,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:05,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,341,python-requests/2.28.0,/admin/login.php
+2024-05-02T00:59:12,192.168.1.10,192.168.1.43,TCP,allowed,benign,firewall,28103,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-02T10:10:16,192.168.1.37,192.168.1.24,ICMP,allowed,benign,application,9504,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:29,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,251,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:44,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1240,Nmap Scripting Engine,/login
+2024-05-01T16:19:17,192.168.1.35,192.168.1.4,HTTP,allowed,benign,ids,3079,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:05,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,808,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,744,Nmap Scripting Engine,/login
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,584,Nmap Scripting Engine,/login
+2024-05-01T14:10:21,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,505,nikto/2.1.6,/wp-admin/
+2024-05-02T07:19:10,192.168.1.31,192.168.1.42,HTTP,allowed,benign,ids,22048,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:59,192.168.1.248,192.168.1.126,FTP,allowed,suspicious,firewall,942,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/wp-admin/
+2024-05-01T14:10:05,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1524,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:44,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,329,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:01:16,192.168.1.201,192.168.1.125,ICMP,blocked,suspicious,application,3356,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:35,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,975,Nmap Scripting Engine,/login
+2024-05-01T14:00:53,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,847,Nmap Scripting Engine,/login
+2024-05-02T11:57:44,192.168.1.45,192.168.1.13,ICMP,allowed,benign,ids,12641,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:21,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1430,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:33,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,747,Nmap Scripting Engine,/login
+2024-05-01T14:05:04,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,492,python-requests/2.28.0,/admin/login.php
+2024-05-01T23:02:20,192.168.1.27,192.168.1.47,ICMP,allowed,benign,ids,6104,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:48,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,446,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:50,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,943,Nmap Scripting Engine,/login
+2024-05-01T14:00:39,192.168.1.201,192.168.1.129,UDP,allowed,suspicious,application,3942,nikto/2.1.6,/ftp
+2024-05-01T14:00:06,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1449,Nmap Scripting Engine,/login
+2024-05-01T14:05:25,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,703,python-requests/2.28.0,/admin/login.php
+2024-05-02T01:17:00,192.168.1.6,192.168.1.33,HTTP,allowed,benign,firewall,22413,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,921,Nmap Scripting Engine,/login
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,932,Nmap Scripting Engine,/login
+2024-05-01T14:01:27,192.168.1.248,192.168.1.111,TCP,allowed,suspicious,ids,3951,Nmap Scripting Engine,/dashboard
+2024-05-01T14:00:43,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1199,Nmap Scripting Engine,/login
+2024-05-01T14:00:59,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,584,Nmap Scripting Engine,/login
+2024-05-01T14:00:53,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,856,Nmap Scripting Engine,/login
+2024-05-01T18:27:39,192.168.1.3,192.168.1.30,HTTP,allowed,benign,firewall,29387,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T16:30:34,192.168.1.30,192.168.1.19,ICMP,allowed,benign,ids,6661,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T17:13:49,192.168.1.46,192.168.1.43,TCP,allowed,benign,application,23003,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1309,Nmap Scripting Engine,/login
+2024-05-01T14:00:34,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,355,Nmap Scripting Engine,/login
+2024-05-01T14:05:14,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,270,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1341,Nmap Scripting Engine,/login
+2024-05-01T22:13:23,192.168.1.20,192.168.1.44,HTTP,allowed,benign,application,3076,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:35,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,453,nikto/2.1.6,/wp-admin/
+2024-05-02T00:56:58,192.168.1.46,192.168.1.10,ICMP,allowed,benign,firewall,28045,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:28,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,217,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:13,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,563,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:02,192.168.1.201,192.168.1.114,SSH,blocked,suspicious,firewall,3736,curl/7.68.0,/admin/login.php
+2024-05-01T14:10:30,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,799,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:37,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,551,Nmap Scripting Engine,/login
+2024-05-01T14:05:35,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,455,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:47,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1233,Nmap Scripting Engine,/login
+2024-05-01T14:05:46,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,616,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:32,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,684,python-requests/2.28.0,/admin/login.php
+2024-05-01T21:20:06,192.168.1.9,192.168.1.22,TCP,allowed,benign,firewall,22206,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:37,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,342,nikto/2.1.6,/wp-admin/
+2024-05-02T07:29:33,192.168.1.11,192.168.1.34,TCP,allowed,benign,application,25916,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:44,192.168.1.248,192.168.1.125,FTP,blocked,suspicious,ids,355,Nmap Scripting Engine,/admin/login.php
+2024-05-02T07:26:54,192.168.1.38,192.168.1.26,TCP,allowed,benign,application,28413,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:44,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,789,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:33,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1342,Nmap Scripting Engine,/login
+2024-05-01T14:01:57,192.168.1.201,192.168.1.102,HTTP,allowed,suspicious,application,3355,curl/7.68.0,/login
+2024-05-01T14:05:38,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,489,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,776,Nmap Scripting Engine,/login
+2024-05-01T14:10:52,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1635,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:22,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,725,Nmap Scripting Engine,/login
+2024-05-01T14:05:50,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,779,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:33,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1079,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:11,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,252,python-requests/2.28.0,/admin/login.php
+2024-05-02T04:29:23,192.168.1.33,192.168.1.19,TCP,allowed,benign,application,33836,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:14,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,380,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:04,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1152,Nmap Scripting Engine,/login
+2024-05-01T14:00:36,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,493,Nmap Scripting Engine,/login
+2024-05-02T05:15:50,192.168.1.40,192.168.1.2,HTTP,allowed,benign,firewall,5409,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1398,Nmap Scripting Engine,/login
+2024-05-01T14:09:39,192.168.1.248,192.168.1.112,TCP,allowed,suspicious,application,351,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/ssh
+2024-05-02T08:16:43,192.168.1.44,192.168.1.4,HTTP,allowed,benign,firewall,34801,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:06,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,824,Nmap Scripting Engine,/login
+2024-05-02T00:43:22,192.168.1.9,192.168.1.12,TCP,allowed,benign,firewall,26663,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:01:45,192.168.1.201,192.168.1.122,TCP,allowed,suspicious,firewall,2129,nikto/2.1.6,/admin/login.php
+2024-05-01T14:05:00,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,560,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:48,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1676,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:42,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1411,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:21,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,957,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:36,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,382,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:30,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,219,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:07:35,192.168.1.125,192.168.1.127,ICMP,allowed,suspicious,application,3109,curl/7.68.0,/
+2024-05-01T14:07:55,192.168.1.248,192.168.1.115,FTP,allowed,suspicious,firewall,616,nikto/2.1.6,/
+2024-05-02T01:37:33,192.168.1.47,192.168.1.23,ICMP,allowed,benign,firewall,25283,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:15,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,675,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:28,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,362,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:48:30,192.168.1.25,192.168.1.36,ICMP,allowed,benign,firewall,1619,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:05,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,501,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:24:41,192.168.1.22,192.168.1.44,HTTP,allowed,benign,ids,21163,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:06:51,192.168.1.201,192.168.1.121,TCP,blocked,suspicious,application,3733,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:45,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,719,Nmap Scripting Engine,/login
+2024-05-01T14:00:14,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,764,Nmap Scripting Engine,/login
+2024-05-01T14:00:16,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1233,Nmap Scripting Engine,/login
+2024-05-01T14:00:18,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1387,Nmap Scripting Engine,/login
+2024-05-01T14:05:24,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,688,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:15,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,478,python-requests/2.28.0,/admin/login.php
+2024-05-02T11:41:34,192.168.1.6,192.168.1.34,ICMP,allowed,benign,application,24709,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T16:06:07,192.168.1.36,192.168.1.30,TCP,allowed,benign,ids,2426,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:48,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,646,Nmap Scripting Engine,/login
+2024-05-01T14:05:30,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,317,python-requests/2.28.0,/admin/login.php
+2024-05-02T10:30:31,192.168.1.1,192.168.1.40,TCP,allowed,benign,firewall,29842,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:33,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,116,Nmap Scripting Engine,/login
+2024-05-01T14:05:36,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,423,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:19,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,846,Nmap Scripting Engine,/login
+2024-05-01T14:05:31,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,444,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:37:16,192.168.1.26,192.168.1.30,TCP,allowed,benign,application,33798,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:40,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,702,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1068,Nmap Scripting Engine,/login
+2024-05-01T14:10:30,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1744,nikto/2.1.6,/wp-admin/
+2024-05-02T08:31:32,192.168.1.1,192.168.1.3,HTTP,allowed,benign,firewall,4013,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:00,192.168.1.125,192.168.1.101,HTTP,allowed,suspicious,ids,2640,sqlmap/1.7.8,/ssh
+2024-05-01T14:09:47,192.168.1.125,192.168.1.125,UDP,allowed,suspicious,application,2290,Nmap Scripting Engine,/admin
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1380,Nmap Scripting Engine,/login
+2024-05-01T14:00:47,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1210,Nmap Scripting Engine,/login
+2024-05-01T14:05:36,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,584,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:39,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,267,Nmap Scripting Engine,/login
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1193,Nmap Scripting Engine,/login
+2024-05-02T00:00:42,192.168.1.18,192.168.1.29,HTTP,allowed,benign,firewall,17107,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:52,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,851,nikto/2.1.6,/wp-admin/
+2024-05-02T06:33:54,192.168.1.48,192.168.1.39,ICMP,allowed,benign,ids,31856,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,802,Nmap Scripting Engine,/login
+2024-05-01T14:00:04,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1318,Nmap Scripting Engine,/login
+2024-05-01T18:12:19,192.168.1.20,192.168.1.26,ICMP,allowed,benign,ids,18367,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-02T04:08:31,192.168.1.23,192.168.1.12,HTTP,allowed,benign,firewall,21840,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:15,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,351,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:09,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1314,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:25,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,841,Nmap Scripting Engine,/login
+2024-05-01T14:05:36,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,491,python-requests/2.28.0,/admin/login.php
+2024-05-02T02:16:25,192.168.1.19,192.168.1.37,TCP,allowed,benign,firewall,12501,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:22,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,804,Nmap Scripting Engine,/login
+2024-05-01T14:05:42,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,227,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:41,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,476,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:46,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,601,Nmap Scripting Engine,/login
+2024-05-01T23:58:36,192.168.1.6,192.168.1.42,ICMP,allowed,benign,ids,6401,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-02T03:40:12,192.168.1.11,192.168.1.47,HTTP,allowed,benign,application,7101,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:06,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,375,Nmap Scripting Engine,/login
+2024-05-01T14:00:53,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,130,Nmap Scripting Engine,/login
+2024-05-01T14:05:27,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,761,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:29,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,462,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:01:20,192.168.1.201,192.168.1.119,HTTP,blocked,suspicious,ids,940,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:03,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,924,Nmap Scripting Engine,/login
+2024-05-01T14:05:39,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,751,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:48,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1152,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:11,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,699,python-requests/2.28.0,/admin/login.php
+2024-05-01T16:44:58,192.168.1.41,192.168.1.6,ICMP,allowed,benign,application,19233,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-02T03:32:21,192.168.1.9,192.168.1.48,ICMP,allowed,benign,application,8736,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:17,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,737,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:51,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,188,Nmap Scripting Engine,/login
+2024-05-01T14:00:07,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,254,Nmap Scripting Engine,/login
+2024-05-01T14:06:12,192.168.1.248,192.168.1.125,FTP,allowed,suspicious,firewall,1269,nikto/2.1.6,/
+2024-05-01T14:10:50,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1566,nikto/2.1.6,/wp-admin/
+2024-05-02T03:04:29,192.168.1.31,192.168.1.35,ICMP,allowed,benign,ids,33924,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:27,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,535,nikto/2.1.6,/wp-admin/
+2024-05-01T17:28:47,192.168.1.33,192.168.1.9,TCP,allowed,benign,ids,5904,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:04:20,192.168.1.201,192.168.1.108,FTP,allowed,suspicious,ids,2456,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:44,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,449,python-requests/2.28.0,/admin/login.php
+2024-05-02T09:17:47,192.168.1.9,192.168.1.25,HTTP,allowed,benign,ids,14325,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:26,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,389,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:54,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,789,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:47,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1988,nikto/2.1.6,/wp-admin/
+2024-05-01T14:06:47,192.168.1.201,192.168.1.106,TCP,blocked,suspicious,firewall,1837,Nmap Scripting Engine,/
+2024-05-01T14:05:47,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,752,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:52,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1307,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1493,Nmap Scripting Engine,/login
+2024-05-01T14:00:39,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,416,Nmap Scripting Engine,/login
+2024-05-01T14:05:42,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,743,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:12,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,845,Nmap Scripting Engine,/login
+2024-05-01T14:05:41,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,549,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:51,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,746,Nmap Scripting Engine,/login
+2024-05-01T14:05:19,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,795,python-requests/2.28.0,/admin/login.php
+2024-05-02T07:57:09,192.168.1.25,192.168.1.23,TCP,allowed,benign,ids,7647,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:03:46,192.168.1.248,192.168.1.102,FTP,blocked,suspicious,application,2575,sqlmap/1.7.8,/login
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,165,Nmap Scripting Engine,/login
+2024-05-01T14:00:01,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,663,Nmap Scripting Engine,/login
+2024-05-01T14:10:05,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,621,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:18,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,966,Nmap Scripting Engine,/login
+2024-05-01T14:04:39,192.168.1.248,192.168.1.124,ICMP,blocked,suspicious,ids,150,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/admin
+2024-05-01T14:01:25,192.168.1.125,192.168.1.108,UDP,allowed,suspicious,ids,851,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/admin/login.php
+2024-05-01T14:10:25,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1966,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,275,Nmap Scripting Engine,/login
+2024-05-01T14:10:28,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,869,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:02,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1231,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:53,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,532,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:41,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,605,nikto/2.1.6,/wp-admin/
+2024-05-01T14:08:13,192.168.1.125,192.168.1.127,TCP,blocked,suspicious,application,3111,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/wp-admin/
+2024-05-02T05:38:22,192.168.1.25,192.168.1.1,TCP,allowed,benign,firewall,14486,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,600,Nmap Scripting Engine,/login
+2024-05-01T14:05:09,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,436,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:26,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,263,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:56:49,192.168.1.6,192.168.1.47,HTTP,allowed,benign,firewall,21535,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-02T02:03:26,192.168.1.48,192.168.1.5,HTTP,allowed,benign,ids,21939,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:03,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,684,nikto/2.1.6,/wp-admin/
+2024-05-01T23:57:22,192.168.1.19,192.168.1.8,TCP,allowed,benign,application,25883,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:29,192.168.1.248,192.168.1.104,TCP,allowed,suspicious,ids,4895,curl/7.68.0,/dashboard
+2024-05-01T19:09:29,192.168.1.23,192.168.1.20,ICMP,allowed,benign,ids,14557,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:59,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1204,Nmap Scripting Engine,/login
+2024-05-01T14:08:39,192.168.1.125,192.168.1.109,UDP,blocked,suspicious,firewall,566,curl/7.68.0,/wp-admin/
+2024-05-01T14:10:20,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1825,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:46,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1095,Nmap Scripting Engine,/login
+2024-05-01T14:06:35,192.168.1.201,192.168.1.108,FTP,allowed,suspicious,ids,767,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:01:18,192.168.1.248,192.168.1.127,TCP,blocked,suspicious,ids,4854,Nmap Scripting Engine,/admin/login.php
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,918,Nmap Scripting Engine,/login
+2024-05-01T17:51:26,192.168.1.1,192.168.1.7,ICMP,allowed,benign,firewall,34467,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:02,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,558,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:19,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,615,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:02:37,192.168.1.248,192.168.1.114,ICMP,blocked,suspicious,ids,729,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/ssh
+2024-05-01T14:00:23,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,683,Nmap Scripting Engine,/login
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,254,Nmap Scripting Engine,/login
+2024-05-01T23:46:37,192.168.1.21,192.168.1.19,ICMP,allowed,benign,application,9558,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:06:22,192.168.1.201,192.168.1.123,TCP,blocked,suspicious,firewall,2924,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/login
+2024-05-01T14:02:23,192.168.1.125,192.168.1.101,ICMP,blocked,suspicious,firewall,896,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/ssh
+2024-05-01T14:05:05,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,638,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:05,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,447,python-requests/2.28.0,/admin/login.php
+2024-05-02T03:02:32,192.168.1.5,192.168.1.35,ICMP,allowed,benign,firewall,29157,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:45,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,738,Nmap Scripting Engine,/login
+2024-05-01T14:10:52,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,591,nikto/2.1.6,/wp-admin/
+2024-05-01T14:08:31,192.168.1.248,192.168.1.112,SSH,allowed,suspicious,ids,2232,nikto/2.1.6,/api/auth
+2024-05-01T22:48:05,192.168.1.30,192.168.1.8,ICMP,allowed,benign,ids,17247,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:31,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,604,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1046,Nmap Scripting Engine,/login
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,608,Nmap Scripting Engine,/login
+2024-05-01T14:05:58,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,330,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:39,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1849,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:34,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,759,python-requests/2.28.0,/admin/login.php
+2024-05-01T22:49:05,192.168.1.3,192.168.1.37,TCP,allowed,benign,firewall,13503,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:18,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,545,Nmap Scripting Engine,/login
+2024-05-01T14:10:47,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,503,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:24,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,298,Nmap Scripting Engine,/login
+2024-05-01T23:00:41,192.168.1.30,192.168.1.23,HTTP,allowed,benign,ids,13352,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,670,Nmap Scripting Engine,/login
+2024-05-01T14:04:39,192.168.1.125,192.168.1.125,ICMP,blocked,suspicious,ids,3702,sqlmap/1.7.8,/index.php
+2024-05-01T22:42:49,192.168.1.36,192.168.1.21,ICMP,allowed,benign,ids,31556,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:09,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,540,Nmap Scripting Engine,/login
+2024-05-01T19:59:02,192.168.1.48,192.168.1.16,TCP,allowed,benign,firewall,11494,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:16,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1031,Nmap Scripting Engine,/login
+2024-05-01T14:04:48,192.168.1.201,192.168.1.116,SSH,blocked,suspicious,firewall,1735,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/wp-admin/
+2024-05-01T14:06:44,192.168.1.125,192.168.1.108,SSH,allowed,suspicious,ids,3119,python-requests/2.28.0,/ftp
+2024-05-02T07:43:08,192.168.1.41,192.168.1.35,TCP,allowed,benign,application,12353,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:50,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1149,nikto/2.1.6,/wp-admin/
+2024-05-01T20:55:06,192.168.1.48,192.168.1.8,TCP,allowed,benign,ids,16898,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:03:16,192.168.1.125,192.168.1.104,HTTP,allowed,suspicious,ids,928,Nmap Scripting Engine,/index.php
+2024-05-01T14:14:26,192.168.1.35,192.168.1.36,ICMP,allowed,benign,firewall,2096,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-02T08:45:38,192.168.1.21,192.168.1.6,ICMP,allowed,benign,application,7251,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T22:25:39,192.168.1.34,192.168.1.27,TCP,allowed,benign,ids,31045,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:35,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,743,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,355,Nmap Scripting Engine,/login
+2024-05-01T14:10:37,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1651,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:38,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1400,Nmap Scripting Engine,/login
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1249,Nmap Scripting Engine,/login
+2024-05-02T10:41:38,192.168.1.27,192.168.1.24,TCP,allowed,benign,application,12322,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:38,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,529,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:03,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1548,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:28,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1856,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1261,Nmap Scripting Engine,/login
+2024-05-01T14:10:24,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1090,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:18,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,727,python-requests/2.28.0,/admin/login.php
+2024-05-01T21:49:59,192.168.1.38,192.168.1.23,HTTP,allowed,benign,firewall,19438,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-02T11:55:56,192.168.1.21,192.168.1.40,HTTP,allowed,benign,application,7822,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,432,Nmap Scripting Engine,/login
+2024-05-01T14:10:31,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1580,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:21,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,669,Nmap Scripting Engine,/login
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1471,Nmap Scripting Engine,/login
+2024-05-01T14:10:10,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1923,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:12,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,593,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:28,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1306,Nmap Scripting Engine,/login
+2024-05-01T14:06:35,192.168.1.48,192.168.1.14,TCP,allowed,benign,firewall,3968,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:06,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,250,Nmap Scripting Engine,/login
+2024-05-01T14:10:36,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,891,nikto/2.1.6,/wp-admin/
+2024-05-01T16:18:12,192.168.1.11,192.168.1.28,ICMP,allowed,benign,ids,20644,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T13:05:15,192.168.1.18,192.168.1.29,ICMP,allowed,benign,firewall,24318,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-02T00:12:19,192.168.1.26,192.168.1.24,HTTP,allowed,benign,application,14094,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:35,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,499,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:36,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1084,nikto/2.1.6,/wp-admin/
+2024-05-01T14:04:54,192.168.1.248,192.168.1.109,ICMP,allowed,suspicious,application,4256,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/admin
+2024-05-01T14:05:52,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,474,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:36,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,588,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,776,Nmap Scripting Engine,/login
+2024-05-01T14:00:00,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,639,Nmap Scripting Engine,/login
+2024-05-01T14:10:03,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,610,nikto/2.1.6,/wp-admin/
+2024-05-02T08:56:42,192.168.1.29,192.168.1.8,TCP,allowed,benign,firewall,33035,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:33,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1040,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:09,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,488,Nmap Scripting Engine,/login
+2024-05-01T14:00:39,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1439,Nmap Scripting Engine,/login
+2024-05-01T21:32:48,192.168.1.45,192.168.1.46,ICMP,allowed,benign,ids,32444,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:14,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,614,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:43,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1216,Nmap Scripting Engine,/login
+2024-05-01T16:09:14,192.168.1.6,192.168.1.42,TCP,allowed,benign,firewall,3444,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:42,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,543,python-requests/2.28.0,/admin/login.php
+2024-05-02T05:00:00,192.168.1.36,192.168.1.31,HTTP,allowed,benign,firewall,19335,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:29,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,336,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:04,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,790,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,123,Nmap Scripting Engine,/login
+2024-05-01T14:00:04,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1482,Nmap Scripting Engine,/login
+2024-05-01T14:05:14,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,403,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:43,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1438,Nmap Scripting Engine,/login
+2024-05-01T14:05:47,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,763,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:16,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,962,nikto/2.1.6,/wp-admin/
+2024-05-01T14:02:56,192.168.1.248,192.168.1.114,TCP,blocked,suspicious,application,2946,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/ssh
+2024-05-01T14:05:48,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,453,python-requests/2.28.0,/admin/login.php
+2024-05-01T20:24:00,192.168.1.3,192.168.1.26,ICMP,allowed,benign,firewall,19970,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:51,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,933,Nmap Scripting Engine,/login
+2024-05-01T19:22:40,192.168.1.38,192.168.1.46,HTTP,allowed,benign,firewall,35491,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:14,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,165,Nmap Scripting Engine,/login
+2024-05-02T05:15:49,192.168.1.13,192.168.1.42,TCP,allowed,benign,firewall,2279,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:07:33,192.168.1.248,192.168.1.113,UDP,blocked,suspicious,ids,2337,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/ssh
+2024-05-01T14:10:04,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,422,nikto/2.1.6,/wp-admin/
+2024-05-02T12:20:31,192.168.1.31,192.168.1.46,HTTP,allowed,benign,ids,11813,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:28,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,347,Nmap Scripting Engine,/login
+2024-05-01T14:10:19,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1505,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1421,Nmap Scripting Engine,/login
+2024-05-01T14:05:23,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,383,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1110,Nmap Scripting Engine,/login
+2024-05-02T05:55:42,192.168.1.47,192.168.1.16,HTTP,allowed,benign,firewall,6650,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:10:03,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,716,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:41,192.168.1.125,192.168.1.104,SSH,allowed,suspicious,firewall,4640,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/ftp
+2024-05-01T14:00:53,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,214,Nmap Scripting Engine,/login
+2024-05-01T14:05:06,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,398,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:41,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,864,Nmap Scripting Engine,/login
+2024-05-01T14:05:20,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,322,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:20,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,612,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:01,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1590,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:14,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,508,Nmap Scripting Engine,/login
+2024-05-01T14:05:24,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,544,python-requests/2.28.0,/admin/login.php
+2024-05-02T13:37:34,192.168.1.11,192.168.1.4,ICMP,allowed,benign,application,21021,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:06,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,643,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:29,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,652,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:16,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,204,Nmap Scripting Engine,/login
+2024-05-01T14:05:04,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,624,python-requests/2.28.0,/admin/login.php
+2024-05-02T00:36:40,192.168.1.48,192.168.1.45,TCP,allowed,benign,ids,16887,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T15:36:38,192.168.1.26,192.168.1.29,HTTP,allowed,benign,application,15238,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:35,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,524,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1266,Nmap Scripting Engine,/login
+2024-05-01T14:10:22,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1136,nikto/2.1.6,/wp-admin/
+2024-05-02T11:01:58,192.168.1.47,192.168.1.21,HTTP,allowed,benign,firewall,33654,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:04,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,164,Nmap Scripting Engine,/login
+2024-05-01T14:05:18,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,432,python-requests/2.28.0,/admin/login.php
+2024-05-01T15:01:37,192.168.1.46,192.168.1.45,ICMP,allowed,benign,application,10312,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:42,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,618,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:55,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,581,Nmap Scripting Engine,/login
+2024-05-01T14:10:05,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1262,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:03,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1286,Nmap Scripting Engine,/login
+2024-05-02T10:20:49,192.168.1.14,192.168.1.31,HTTP,allowed,benign,ids,20869,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:16,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1652,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:13,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,630,python-requests/2.28.0,/admin/login.php
+2024-05-02T13:55:54,192.168.1.25,192.168.1.48,TCP,allowed,benign,ids,7812,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:04:54,192.168.1.125,192.168.1.123,TCP,blocked,suspicious,firewall,923,nikto/2.1.6,/admin
+2024-05-01T14:10:28,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,554,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1100,Nmap Scripting Engine,/login
+2024-05-01T14:05:53,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,483,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:59,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,634,Nmap Scripting Engine,/login
+2024-05-01T20:29:52,192.168.1.35,192.168.1.26,TCP,allowed,benign,firewall,15594,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:28,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1730,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,576,Nmap Scripting Engine,/login
+2024-05-01T19:10:34,192.168.1.37,192.168.1.41,ICMP,allowed,benign,application,28146,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:19,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,310,python-requests/2.28.0,/admin/login.php
+2024-05-01T19:44:18,192.168.1.44,192.168.1.20,TCP,allowed,benign,application,3643,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:54,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1063,Nmap Scripting Engine,/login
+2024-05-01T14:05:44,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,502,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:14,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1888,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:15,192.168.1.125,192.168.1.107,UDP,allowed,suspicious,firewall,1774,python-requests/2.28.0,/api/auth
+2024-05-01T14:00:46,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1040,Nmap Scripting Engine,/login
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,825,Nmap Scripting Engine,/login
+2024-05-01T15:45:45,192.168.1.3,192.168.1.7,TCP,allowed,benign,ids,2067,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:04:16,192.168.1.125,192.168.1.103,FTP,allowed,suspicious,firewall,221,curl/7.68.0,/api/auth
+2024-05-02T07:54:11,192.168.1.27,192.168.1.46,ICMP,allowed,benign,ids,11961,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:29,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1428,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:04,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,532,Nmap Scripting Engine,/login
+2024-05-01T14:00:57,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,832,Nmap Scripting Engine,/login
+2024-05-02T05:37:52,192.168.1.18,192.168.1.34,HTTP,allowed,benign,ids,6050,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T16:16:40,192.168.1.37,192.168.1.7,TCP,allowed,benign,firewall,24972,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T15:13:20,192.168.1.29,192.168.1.39,TCP,allowed,benign,application,4190,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-02T00:12:29,192.168.1.35,192.168.1.37,TCP,allowed,benign,firewall,12754,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T09:44:23,192.168.1.19,192.168.1.20,HTTP,allowed,benign,application,12409,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:08:21,192.168.1.248,192.168.1.113,ICMP,allowed,suspicious,application,3135,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/admin/login.php
+2024-05-01T14:00:52,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1042,Nmap Scripting Engine,/login
+2024-05-02T08:24:47,192.168.1.30,192.168.1.24,HTTP,allowed,benign,application,32667,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:41,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,205,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:02:29,192.168.1.125,192.168.1.116,UDP,allowed,suspicious,firewall,1534,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/ftp
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,807,Nmap Scripting Engine,/login
+2024-05-01T14:05:48,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,653,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:16,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,385,Nmap Scripting Engine,/login
+2024-05-01T14:05:30,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,690,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:49,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,357,Nmap Scripting Engine,/login
+2024-05-01T14:07:19,192.168.1.248,192.168.1.112,FTP,blocked,suspicious,ids,1043,sqlmap/1.7.8,/
+2024-05-01T14:05:42,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,588,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:02,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,993,Nmap Scripting Engine,/login
+2024-05-01T21:12:49,192.168.1.26,192.168.1.24,TCP,allowed,benign,application,6507,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-02T00:55:56,192.168.1.3,192.168.1.46,HTTP,allowed,benign,firewall,23483,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:43,192.168.1.248,192.168.1.127,ICMP,blocked,suspicious,ids,569,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/dashboard
+2024-05-01T14:10:42,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,514,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:53,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,678,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:08:07,192.168.1.201,192.168.1.124,ICMP,allowed,suspicious,ids,4227,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/ftp
+2024-05-01T14:10:10,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,305,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:01,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,291,Nmap Scripting Engine,/login
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,218,Nmap Scripting Engine,/login
+2024-05-01T14:10:31,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,548,nikto/2.1.6,/wp-admin/
+2024-05-02T12:15:47,192.168.1.31,192.168.1.48,TCP,allowed,benign,firewall,10049,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-02T00:30:58,192.168.1.9,192.168.1.12,ICMP,allowed,benign,ids,4513,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:10:50,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1920,nikto/2.1.6,/wp-admin/
+2024-05-02T01:15:39,192.168.1.26,192.168.1.46,TCP,allowed,benign,ids,35451,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:35,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,200,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:12,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,421,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:18,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1338,Nmap Scripting Engine,/login
+2024-05-01T14:08:04,192.168.1.201,192.168.1.101,FTP,allowed,suspicious,ids,3024,Nmap Scripting Engine,/index.php
+2024-05-01T14:05:44,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,664,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:21,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,527,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:39,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,746,python-requests/2.28.0,/admin/login.php
+2024-05-01T17:39:28,192.168.1.9,192.168.1.49,HTTP,allowed,benign,application,26167,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:16,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,178,Nmap Scripting Engine,/login
+2024-05-01T14:07:32,192.168.1.201,192.168.1.118,ICMP,blocked,suspicious,application,2148,nikto/2.1.6,/wp-admin/
+2024-05-02T00:44:31,192.168.1.24,192.168.1.40,HTTP,allowed,benign,firewall,9753,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:04:55,192.168.1.125,192.168.1.109,TCP,allowed,suspicious,firewall,3539,nikto/2.1.6,/login
+2024-05-01T14:05:50,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,793,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:21,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1913,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:47,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,780,Nmap Scripting Engine,/login
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1399,Nmap Scripting Engine,/login
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,576,Nmap Scripting Engine,/login
+2024-05-01T14:10:09,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1085,nikto/2.1.6,/wp-admin/
+2024-05-02T07:23:00,192.168.1.21,192.168.1.16,HTTP,allowed,benign,ids,26137,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-02T08:50:11,192.168.1.23,192.168.1.9,TCP,allowed,benign,application,12925,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1094,Nmap Scripting Engine,/login
+2024-05-02T08:21:33,192.168.1.29,192.168.1.49,TCP,allowed,benign,ids,8786,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1332,Nmap Scripting Engine,/login
+2024-05-01T14:02:12,192.168.1.201,192.168.1.117,FTP,allowed,suspicious,application,4677,curl/7.68.0,/login
+2024-05-02T00:26:16,192.168.1.2,192.168.1.33,TCP,allowed,benign,application,29218,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:44,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1516,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:04,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,448,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:06:30,192.168.1.248,192.168.1.111,TCP,allowed,suspicious,ids,305,curl/7.68.0,/ftp
+2024-05-01T19:25:58,192.168.1.20,192.168.1.25,HTTP,allowed,benign,application,32032,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,997,Nmap Scripting Engine,/login
+2024-05-02T06:30:24,192.168.1.40,192.168.1.39,HTTP,allowed,benign,ids,12511,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,666,Nmap Scripting Engine,/login
+2024-05-01T14:01:39,192.168.1.248,192.168.1.120,TCP,blocked,suspicious,ids,373,curl/7.68.0,/admin
+2024-05-01T14:00:54,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,640,Nmap Scripting Engine,/login
+2024-05-01T14:00:16,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,336,Nmap Scripting Engine,/login
+2024-05-02T06:01:40,192.168.1.22,192.168.1.28,TCP,allowed,benign,application,9921,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,876,Nmap Scripting Engine,/login
+2024-05-02T08:11:57,192.168.1.28,192.168.1.42,ICMP,allowed,benign,application,7249,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:21,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,588,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:59,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,875,Nmap Scripting Engine,/login
+2024-05-01T14:00:59,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1202,Nmap Scripting Engine,/login
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,317,Nmap Scripting Engine,/login
+2024-05-01T14:03:22,192.168.1.125,192.168.1.119,HTTP,allowed,suspicious,firewall,4147,nikto/2.1.6,/ftp
+2024-05-01T15:50:32,192.168.1.19,192.168.1.25,TCP,allowed,benign,ids,17270,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-02T06:04:00,192.168.1.30,192.168.1.1,ICMP,allowed,benign,firewall,9645,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:00,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,899,Nmap Scripting Engine,/login
+2024-05-02T13:58:52,192.168.1.10,192.168.1.46,ICMP,allowed,benign,ids,5847,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:57,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,753,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:48,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1848,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:38,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1936,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:45,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,746,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,264,Nmap Scripting Engine,/login
+2024-05-02T13:42:03,192.168.1.49,192.168.1.44,HTTP,allowed,benign,firewall,30575,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:10:41,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,615,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:40,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1705,nikto/2.1.6,/wp-admin/
+2024-05-01T17:30:24,192.168.1.34,192.168.1.10,HTTP,allowed,benign,firewall,35501,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:13,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1496,Nmap Scripting Engine,/login
+2024-05-01T14:00:39,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,840,Nmap Scripting Engine,/login
+2024-05-01T20:45:45,192.168.1.44,192.168.1.38,TCP,allowed,benign,ids,6616,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:35,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,571,Nmap Scripting Engine,/login
+2024-05-01T14:07:30,192.168.1.125,192.168.1.116,UDP,allowed,suspicious,application,1280,sqlmap/1.7.8,/admin
+2024-05-01T17:28:01,192.168.1.9,192.168.1.49,ICMP,allowed,benign,firewall,19174,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:48,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,725,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:47,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,748,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:31,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,424,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:11,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1289,Nmap Scripting Engine,/login
+2024-05-01T14:00:39,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1253,Nmap Scripting Engine,/login
+2024-05-01T14:09:06,192.168.1.125,192.168.1.109,UDP,allowed,suspicious,ids,4772,nikto/2.1.6,/admin/login.php
+2024-05-01T14:05:44,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,220,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:59,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1410,Nmap Scripting Engine,/login
+2024-05-01T14:05:22,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,635,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:45,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,242,Nmap Scripting Engine,/login
+2024-05-01T14:00:51,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,462,Nmap Scripting Engine,/login
+2024-05-01T14:00:58,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1261,Nmap Scripting Engine,/login
+2024-05-01T14:00:34,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,536,Nmap Scripting Engine,/login
+2024-05-02T08:51:02,192.168.1.39,192.168.1.33,HTTP,allowed,benign,application,26673,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:36:27,192.168.1.38,192.168.1.5,HTTP,allowed,benign,ids,15138,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:05,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1230,Nmap Scripting Engine,/login
+2024-05-01T14:10:05,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,944,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:59,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,705,nikto/2.1.6,/wp-admin/
+2024-05-02T09:46:51,192.168.1.34,192.168.1.32,HTTP,allowed,benign,application,31672,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:36,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1068,Nmap Scripting Engine,/login
+2024-05-01T14:05:49,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,367,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:40,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,732,nikto/2.1.6,/wp-admin/
+2024-05-01T14:01:23,192.168.1.201,192.168.1.107,TCP,blocked,suspicious,firewall,2846,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/admin
+2024-05-02T02:49:20,192.168.1.11,192.168.1.9,TCP,allowed,benign,application,33002,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:34,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,638,Nmap Scripting Engine,/login
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,932,Nmap Scripting Engine,/login
+2024-05-01T18:05:07,192.168.1.4,192.168.1.36,TCP,allowed,benign,firewall,10820,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:02,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,774,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:25,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,648,Nmap Scripting Engine,/login
+2024-05-01T14:05:46,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,369,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:18,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1747,nikto/2.1.6,/wp-admin/
+2024-05-02T12:19:16,192.168.1.21,192.168.1.11,ICMP,allowed,benign,application,20610,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:16,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,689,python-requests/2.28.0,/admin/login.php
+2024-05-01T21:08:49,192.168.1.41,192.168.1.36,ICMP,allowed,benign,firewall,20845,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:59,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,519,python-requests/2.28.0,/admin/login.php
+2024-05-02T11:37:27,192.168.1.5,192.168.1.34,HTTP,allowed,benign,ids,21740,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:35,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,210,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:37,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1257,Nmap Scripting Engine,/login
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,465,Nmap Scripting Engine,/login
+2024-05-01T14:08:28,192.168.1.201,192.168.1.124,HTTP,blocked,suspicious,firewall,1657,python-requests/2.28.0,/admin
+2024-05-01T14:10:55,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,442,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:04,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,718,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:06:15,192.168.1.201,192.168.1.110,FTP,blocked,suspicious,firewall,1029,Nmap Scripting Engine,/admin
+2024-05-01T23:43:58,192.168.1.26,192.168.1.6,ICMP,allowed,benign,ids,31080,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:56,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,789,python-requests/2.28.0,/admin/login.php
+2024-05-01T23:53:21,192.168.1.9,192.168.1.7,TCP,allowed,benign,application,16681,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:33,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,395,python-requests/2.28.0,/admin/login.php
+2024-05-02T05:10:02,192.168.1.40,192.168.1.41,HTTP,allowed,benign,ids,19983,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:39,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,782,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:08,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1269,Nmap Scripting Engine,/login
+2024-05-01T14:00:40,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,636,Nmap Scripting Engine,/login
+2024-05-01T14:00:38,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,763,Nmap Scripting Engine,/login
+2024-05-01T14:05:32,192.168.1.125,192.168.1.125,SSH,blocked,suspicious,application,3064,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/dashboard
+2024-05-01T14:08:56,192.168.1.248,192.168.1.119,HTTP,blocked,suspicious,ids,2417,sqlmap/1.7.8,/dashboard
+2024-05-01T14:10:36,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,922,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:24,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1280,Nmap Scripting Engine,/login
+2024-05-01T14:05:42,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,286,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:19,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,493,python-requests/2.28.0,/admin/login.php
+2024-05-02T06:13:10,192.168.1.4,192.168.1.30,HTTP,allowed,benign,application,28225,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T21:23:44,192.168.1.24,192.168.1.21,ICMP,allowed,benign,firewall,15501,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:39,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,716,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:48,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,789,Nmap Scripting Engine,/login
+2024-05-01T14:05:42,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,614,python-requests/2.28.0,/admin/login.php
+2024-05-02T10:27:39,192.168.1.45,192.168.1.40,ICMP,allowed,benign,firewall,12491,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T18:45:32,192.168.1.16,192.168.1.19,ICMP,allowed,benign,ids,26752,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-02T06:00:19,192.168.1.27,192.168.1.31,ICMP,allowed,benign,firewall,23294,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:24,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,652,Nmap Scripting Engine,/login
+2024-05-01T14:00:08,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,185,Nmap Scripting Engine,/login
+2024-05-01T14:01:09,192.168.1.201,192.168.1.114,FTP,blocked,suspicious,ids,4944,Nmap Scripting Engine,/index.php
+2024-05-01T14:05:58,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,324,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:53,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,220,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:29,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1401,Nmap Scripting Engine,/login
+2024-05-01T14:05:49,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,577,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:09:45,192.168.1.248,192.168.1.106,ICMP,blocked,suspicious,application,1335,Nmap Scripting Engine,/admin/login.php
+2024-05-01T14:02:20,192.168.1.201,192.168.1.109,ICMP,allowed,suspicious,firewall,4174,sqlmap/1.7.8,/admin
+2024-05-01T17:53:41,192.168.1.9,192.168.1.20,HTTP,allowed,benign,ids,22772,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:24,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1232,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:41,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,301,Nmap Scripting Engine,/login
+2024-05-01T14:05:10,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,317,python-requests/2.28.0,/admin/login.php
+2024-05-02T06:22:27,192.168.1.17,192.168.1.23,HTTP,allowed,benign,ids,8693,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:03,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,742,Nmap Scripting Engine,/login
+2024-05-01T14:00:24,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,669,Nmap Scripting Engine,/login
+2024-05-01T14:05:19,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,214,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:32,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,847,nikto/2.1.6,/wp-admin/
+2024-05-01T18:59:44,192.168.1.45,192.168.1.1,HTTP,allowed,benign,ids,23721,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:07,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,266,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:02:18,192.168.1.201,192.168.1.114,ICMP,blocked,suspicious,application,1365,sqlmap/1.7.8,/login
+2024-05-01T14:05:16,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,588,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:14,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,148,Nmap Scripting Engine,/login
+2024-05-01T14:05:06,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,508,python-requests/2.28.0,/admin/login.php
+2024-05-01T16:07:59,192.168.1.31,192.168.1.34,ICMP,allowed,benign,application,16254,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-02T03:02:41,192.168.1.14,192.168.1.29,ICMP,allowed,benign,ids,18367,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:00:43,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1473,Nmap Scripting Engine,/login
+2024-05-01T23:43:15,192.168.1.22,192.168.1.20,TCP,allowed,benign,application,1749,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,729,Nmap Scripting Engine,/login
+2024-05-02T00:51:50,192.168.1.37,192.168.1.39,HTTP,allowed,benign,ids,19649,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:21,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1143,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:52,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,241,Nmap Scripting Engine,/login
+2024-05-01T14:00:07,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,843,Nmap Scripting Engine,/login
+2024-05-02T02:07:32,192.168.1.31,192.168.1.34,ICMP,allowed,benign,firewall,34784,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:10:08,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,889,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:10,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,936,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:48,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1426,nikto/2.1.6,/wp-admin/
+2024-05-02T13:51:55,192.168.1.6,192.168.1.46,HTTP,allowed,benign,firewall,14986,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:28,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,387,Nmap Scripting Engine,/login
+2024-05-01T14:05:22,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,745,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,533,Nmap Scripting Engine,/login
+2024-05-01T14:05:52,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,701,python-requests/2.28.0,/admin/login.php
+2024-05-01T18:06:04,192.168.1.22,192.168.1.11,TCP,allowed,benign,ids,17860,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T19:24:01,192.168.1.6,192.168.1.46,HTTP,allowed,benign,ids,26968,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:15,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1753,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:14,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1888,nikto/2.1.6,/wp-admin/
+2024-05-01T14:08:40,192.168.1.201,192.168.1.100,ICMP,blocked,suspicious,firewall,1854,curl/7.68.0,/admin/login.php
+2024-05-02T03:05:27,192.168.1.45,192.168.1.16,HTTP,allowed,benign,application,8747,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:44,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1216,Nmap Scripting Engine,/login
+2024-05-02T04:08:36,192.168.1.27,192.168.1.39,HTTP,allowed,benign,application,26146,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:21,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,560,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:14,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,841,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:06,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1321,Nmap Scripting Engine,/login
+2024-05-02T09:32:53,192.168.1.39,192.168.1.41,HTTP,allowed,benign,firewall,17268,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:05:57,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,309,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:11,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1263,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:39,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,356,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:27,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1600,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:16,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,283,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:10,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1029,Nmap Scripting Engine,/login
+2024-05-01T14:00:47,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1297,Nmap Scripting Engine,/login
+2024-05-01T16:13:09,192.168.1.36,192.168.1.38,TCP,allowed,benign,firewall,28997,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:02:09,192.168.1.125,192.168.1.107,FTP,blocked,suspicious,ids,3236,Nmap Scripting Engine,/ftp
+2024-05-01T14:05:29,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,624,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:24,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,179,Nmap Scripting Engine,/login
+2024-05-01T14:10:31,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1767,nikto/2.1.6,/wp-admin/
+2024-05-01T21:32:32,192.168.1.38,192.168.1.10,TCP,allowed,benign,ids,6042,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,492,Nmap Scripting Engine,/login
+2024-05-01T14:10:58,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1961,nikto/2.1.6,/wp-admin/
+2024-05-02T13:22:03,192.168.1.4,192.168.1.34,HTTP,allowed,benign,firewall,4179,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:32,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,643,Nmap Scripting Engine,/login
+2024-05-01T14:05:21,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,229,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:06:46,192.168.1.248,192.168.1.101,UDP,allowed,suspicious,ids,737,curl/7.68.0,/ftp
+2024-05-02T11:32:34,192.168.1.32,192.168.1.13,TCP,allowed,benign,application,17064,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:27,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,380,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,646,Nmap Scripting Engine,/login
+2024-05-01T14:00:45,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1392,Nmap Scripting Engine,/login
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,643,Nmap Scripting Engine,/login
+2024-05-01T23:50:46,192.168.1.12,192.168.1.2,ICMP,allowed,benign,application,15353,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1235,Nmap Scripting Engine,/login
+2024-05-01T14:00:42,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1096,Nmap Scripting Engine,/login
+2024-05-01T14:00:03,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,202,Nmap Scripting Engine,/login
+2024-05-01T14:05:41,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,702,python-requests/2.28.0,/admin/login.php
+2024-05-02T08:32:11,192.168.1.26,192.168.1.33,HTTP,allowed,benign,firewall,3550,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:00:15,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,560,Nmap Scripting Engine,/login
+2024-05-01T14:00:51,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,323,Nmap Scripting Engine,/login
+2024-05-01T14:10:55,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,686,nikto/2.1.6,/wp-admin/
+2024-05-01T14:09:41,192.168.1.248,192.168.1.102,TCP,allowed,suspicious,firewall,507,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/wp-admin/
+2024-05-01T14:10:25,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1353,nikto/2.1.6,/wp-admin/
+2024-05-02T00:51:47,192.168.1.30,192.168.1.44,TCP,allowed,benign,application,28795,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:10:18,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1739,nikto/2.1.6,/wp-admin/
+2024-05-01T18:59:33,192.168.1.25,192.168.1.49,HTTP,allowed,benign,application,10362,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:10:07,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1882,nikto/2.1.6,/wp-admin/
+2024-05-01T14:10:36,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1571,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:14,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,692,Nmap Scripting Engine,/login
+2024-05-01T14:04:58,192.168.1.201,192.168.1.100,SSH,blocked,suspicious,firewall,4774,sqlmap/1.7.8,/admin
+2024-05-01T16:31:04,192.168.1.27,192.168.1.44,ICMP,allowed,benign,firewall,20846,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T21:45:25,192.168.1.41,192.168.1.48,HTTP,allowed,benign,ids,29992,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/
+2024-05-01T14:05:15,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,404,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:29,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1183,Nmap Scripting Engine,/login
+2024-05-01T14:05:43,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,378,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:02,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,255,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:37,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1231,Nmap Scripting Engine,/login
+2024-05-01T21:57:24,192.168.1.28,192.168.1.7,TCP,allowed,benign,application,17222,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:10:52,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,302,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:08,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,480,python-requests/2.28.0,/admin/login.php
+2024-05-02T13:55:54,192.168.1.28,192.168.1.26,HTTP,allowed,benign,application,13931,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:47,192.168.1.125,192.168.1.110,HTTP,allowed,suspicious,application,1034,Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0,/index.php
+2024-05-01T14:10:29,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1710,nikto/2.1.6,/wp-admin/
+2024-05-01T14:05:00,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,630,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:42,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1946,nikto/2.1.6,/wp-admin/
+2024-05-01T23:29:40,192.168.1.36,192.168.1.38,TCP,allowed,benign,application,28366,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T17:31:52,192.168.1.2,192.168.1.14,HTTP,allowed,benign,application,20124,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T16:40:34,192.168.1.6,192.168.1.18,HTTP,allowed,benign,ids,11110,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:31,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,910,Nmap Scripting Engine,/login
+2024-05-01T14:10:33,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1634,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:21,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,367,Nmap Scripting Engine,/login
+2024-05-01T14:10:35,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,328,nikto/2.1.6,/wp-admin/
+2024-05-02T04:20:29,192.168.1.24,192.168.1.22,TCP,allowed,benign,ids,10454,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:50,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,242,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:02,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1184,nikto/2.1.6,/wp-admin/
+2024-05-02T02:32:23,192.168.1.42,192.168.1.43,ICMP,allowed,benign,application,21888,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:49,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,733,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:07:17,192.168.1.201,192.168.1.121,ICMP,blocked,suspicious,firewall,3985,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:21,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,328,Nmap Scripting Engine,/login
+2024-05-01T14:00:58,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,101,Nmap Scripting Engine,/login
+2024-05-01T14:07:42,192.168.1.125,192.168.1.113,ICMP,blocked,suspicious,ids,3507,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:46,192.168.1.248,192.168.1.119,TCP,blocked,suspicious,firewall,2800,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/ssh
+2024-05-02T13:49:15,192.168.1.44,192.168.1.31,ICMP,allowed,benign,application,1535,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:00:27,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,475,Nmap Scripting Engine,/login
+2024-05-01T14:00:56,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1416,Nmap Scripting Engine,/login
+2024-05-01T14:10:44,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,1314,nikto/2.1.6,/wp-admin/
+2024-05-01T14:00:22,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1413,Nmap Scripting Engine,/login
+2024-05-02T05:54:50,192.168.1.15,192.168.1.5,ICMP,allowed,benign,application,26998,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/
+2024-05-01T14:00:02,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,107,Nmap Scripting Engine,/login
+2024-05-01T14:02:47,192.168.1.4,192.168.1.25,ICMP,allowed,benign,application,28502,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",/login
+2024-05-01T14:05:48,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,389,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:21,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,486,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:52,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,566,Nmap Scripting Engine,/login
+2024-05-01T14:00:41,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,246,Nmap Scripting Engine,/login
+2024-05-01T14:05:31,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,768,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:26,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,1446,Nmap Scripting Engine,/login
+2024-05-01T14:05:17,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,646,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:05:08,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,672,python-requests/2.28.0,/admin/login.php
+2024-05-02T09:36:57,192.168.1.11,192.168.1.21,TCP,allowed,benign,ids,19961,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",/index.php
+2024-05-01T14:05:31,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,229,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:00:38,192.168.1.125,192.168.1.100,TCP,blocked,malicious,firewall,181,Nmap Scripting Engine,/login
+2024-05-01T14:05:17,192.168.1.201,192.168.1.101,SSH,blocked,malicious,ids,631,python-requests/2.28.0,/admin/login.php
+2024-05-01T14:10:01,192.168.1.248,192.168.1.102,HTTP,blocked,suspicious,application,487,nikto/2.1.6,/wp-admin/
