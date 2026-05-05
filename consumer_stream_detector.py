@@ -29,11 +29,8 @@ cassandra_session = Cluster([glob.CASSANDRA_HOST]).connect(glob.CASSANDRA_KEYSPA
 spark_session = (
     SparkSession.builder
     .appName('threat_detector')
-    .config("spark.driver.memory",          "512m")
-    .config("spark.executor.memory",        "512m")
     .config("spark.sql.shuffle.partitions", "2")
     .config("spark.ui.enabled",             "false")
-    .config("spark.hadoop.fs.defaultFS",    "file:///")
     .getOrCreate()
 )
 
@@ -60,7 +57,6 @@ data_frame = (
         'timestamp',
         func.to_timestamp(func.col('timestamp'), "yyyy-MM-dd'T'HH:mm:ss")
     )
-    .withWatermark('timestamp', '30 seconds')               # tolerate 30s late-arriving data
 )
 
 # detection names for display

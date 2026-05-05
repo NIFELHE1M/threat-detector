@@ -1,15 +1,11 @@
-BOOTSTRAP_SERVERS = 'localhost:9092' #our broker
+BOOTSTRAP_SERVERS = 'hadoop-master:9092'  # Use hostname, not localhost
 
-TOPIC = 'threat_scan' #kafka topic
+TOPIC = 'threat_scan'
 
-CYBER_PACKETS = 'threat_test_1000.csv' #data file
+CYBER_PACKETS = 'threat_test_1000.csv'
 
-#detection patterns 
-
-#for brute force
 BRUTE_FORCE_THRESHOLD = 5 
 
-#patterns and signature
 SQL_INJECTION = '|'.join([
     r"(?i)(\bselect\b.*\bfrom\b)",           
     r"(?i)(\binsert\b.*\binto\b)",            
@@ -60,18 +56,15 @@ PATH_TRAVERSAL = '|'.join([
     r"\.\.%255c", 
 ])
 
-#abnormal data volume
-VOLUME_THRESHOLD = 10 * 1024 * 1024 #in bytes cause of the data
+VOLUME_THRESHOLD = 10 * 1024 * 1024
 
-#metric
 METRICS = {
-    'critical' : 20,
-    'high' : 10,
-    'medium' : 5,
-    'low' : 2
+    'critical': 20,
+    'high': 10,
+    'medium': 5,
+    'low': 2
 }
 
-#cassandra vars
 CASSANDRA_HOST = 'cassandra'
 CASSANDRA_KEYSPACE = 'threat_detection'
 CASSANDRA_TABLE_METADATA = 'threats_metadata'
