@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Threat Detection Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: sans-serif; background: #0f1117; color: #e2e8f0; padding: 24px; }
+  h1 { font-size: 22px; font-weight: 500; margin-bottom: 4px; }
+  .subtitle { color: #64748b; font-size: 13px; margin-bottom: 24px; }
+
+  .cards { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  .card { background: #1e2130; border: 1px solid #2d3148; border-radius: 12px; padding: 18px 22px; flex: 1; min-width: 160px; }
+  .card-label { font-size: 12px; color: #64748b; margin-bottom: 6px; }
+  .card-value { font-size: 28px; font-weight: 500; }
+  .card-value.red   { color: #f87171; }
+  .card-value.amber { color: #fbbf24; }
+  .card-value.teal  { color: #2dd4bf; }
+
+  .status { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #64748b; margin-bottom: 16px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: #64748b; }
+  .dot.live { background: #22c55e; animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; padding: 10px 14px; color: #64748b; font-weight: 400; border-bottom: 1px solid #2d3148; }
+  td { padding: 10px 14px; border-bottom: 1px solid #1a1f2e; }
+  tr:hover td { background: #1a1f2e; }
+
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 20px; font-size: 11px; font-weight: 500; }
+  .badge.critical { background: #7f1d1d; color: #fca5a5; }
+  .badge.high     { background: #78350f; color: #fcd34d; }
+  .badge.medium   { background: #1e3a5f; color: #93c5fd; }
+  .badge.low      { background: #134e3a; color: #6ee7b7; }
+
+  .section-title { font-size: 14px; font-weight: 500; margin: 24px 0 12px; }
+  .error { color: #f87171; font-size: 13px; margin-top: 16px; }
+
+  .new-row { animation: highlight .8s ease-out; }
+  @keyframes highlight { from { background: #1e3a5f; } to { background: transparent; } }
+</style>
+</head>
+<body>
+
+<h1>🛡 Threat Detection Dashboard</h1>
+<p class="subtitle">Live data from Cassandra · threat_detection keyspace</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-label">Total alerts</div>
+    <div class="card-value teal" id="total-count">—</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Critical</div>
+    <div class="card-value red" id="critical-count">—</div>
+  </div>
+  <div class="card">
+    <div class="card-label">High</div>
+    <div class="card-value amber" id="high-count">—</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Unique IPs</div>
+    <div class="card-value teal" id="ip-count">—</div>
+  </div>
+</div>
+
+<div class="status">
+  <div class="dot" id="status-dot"></div>
+  <span id="status-text">Connecting...</span>
+</div>
+
+<div class="section-title">Recent threats (live)</div>
+<table>
+  <thead>
+    <tr>
+      <th>IP source</th>
+      <th>Attack type</th>
+      <th>Severity</th>
+      <th>Detected at</th>
+    </tr>
+  </thead>
+  <tbody id="threats-body">
+    <tr><td colspan="4" style="color:#64748b;padding:20px 14px">Waiting for data...</td></tr>
+  </tbody>
+</table>
+
+<div id="error-msg" class="error"></div>
+
+<script>
+  const API = "http://localhost:8001";
+  let visibleRows = 1;
+
+  function badge(severity) {
+    const s = (severity || "low").toLowerCase();
+    return `<span class="badge ${s}">${severity}</span>`;
+  }
+
+  function renderThreats(data, count = data.length) {
+    const tbody = document.getElementById("threats-body");
+    const visibleData = data.slice(0, count);
+    if (!visibleData.length) {
+      tbody.innerHTML = '<tr><td colspan="4" style="color:#64748b;padding:20px 14px">No threats found.</td></tr>';
+      return;
+    }
+
+    // Summary cards based on visible rows
+    document.getElementById("total-count").textContent = visibleData.length;
+    document.getElementById("critical-count").textContent =
+      visibleData.filter(r => (r.severity||"").toLowerCase() === "critical").length;
+    document.getElementById("high-count").textContent =
+      visibleData.filter(r => (r.severity||"").toLowerCase() === "high").length;
+    const ips = new Set(visibleData.map(r => r.ip_source));
+    document.getElementById("ip-count").textContent = ips.size;
+
+    tbody.innerHTML = visibleData.map((r, i) => `
+      <tr class="${i === 0 ? 'new-row' : ''}">
+        <td style="font-family:monospace">${r.ip_source || "—"}</td>
+        <td>${r.attack_type || "—"}</td>
+        <td>${badge(r.severity)}</td>
+        <td style="color:#64748b">${r.detected_at ? r.detected_at.slice(0,19) : "—"}</td>
+      </tr>
+    `).join("");
+  }
+
+  // ── SSE live stream ──────────────────────────────────────────
+  function startStream() {
+    const dot  = document.getElementById("status-dot");
+    const text = document.getElementById("status-text");
+    const err  = document.getElementById("error-msg");
+
+    const es = new EventSource(`${API}/stream`);
+
+    es.onopen = () => {
+      dot.classList.add("live");
+      text.textContent = "Connected — refreshing every second";
+      err.textContent = "";
+    };
+
+    es.onmessage = (e) => {
+      try {
+        const data = JSON.parse(e.data);
+        renderThreats(data, visibleRows);
+        visibleRows = Math.min(visibleRows + 1, data.length);
+      } catch(ex) {
+        err.textContent = "Parse error: " + ex.message;
+      }
+    };
+
+    es.onerror = () => {
+      dot.classList.remove("live");
+      text.textContent = "Connection lost — retrying...";
+      err.textContent = "Make sure the FastAPI server is running at " + API;
+    };
+  }
+
+  startStream();
+</script>
+</body>
+</html>
